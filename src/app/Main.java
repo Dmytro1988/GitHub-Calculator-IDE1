@@ -9,13 +9,12 @@ public class Main {
         int b = 2;
         int c = add(a, b);
         System.out.println(c);
-        int f = subtraction(a,b);
+        int f = subtraction(a, b);
         System.out.println(f);
         int d = multiply(a, b);
         System.out.println(d);
-        int h = division(a,b);
+        int h = division(a, b);
         System.out.println(h);
-
 
     }
 
@@ -23,10 +22,10 @@ public class Main {
         return a + b;
     }
     private static int subtraction(int a, int b) {return a - b; }
-
     private static int multiply(int a, int b) {
         return a * b;
     }
+    private static int division(int a, int b) {return a / b; }
 
-    private static int division(int a, int b) {return a / b;}
+
 }
